@@ -213,7 +213,7 @@ ul li a{
     font-size: 15px;
 }
 .featured li{
-    color:#e5e7eb;
+    color:#b8b7b7;
 }
 .pricing-card button{
     width:100%;
@@ -292,7 +292,7 @@ ul li a{
     margin-bottom:15px;
 }
 .tracks-subtitle{
-    color:#666;
+    color:#575757;
     font-size:20px;
     margin-bottom:60px;
 }
@@ -324,4 +324,210 @@ ul li a{
     font-size:18px;
     color:#555;
     line-height:1.6;
+}
+
+/* Venue Section */
+.venue-section{
+    margin:100px auto;
+}
+.venue-section h2{
+    font-size:50px;
+    text-align:center;
+    margin-bottom:15px;
+}
+.venue-subtitle{
+    text-align:center;
+    color:#575757;
+    font-size:20px;
+    margin-bottom:60px;
+}
+.venue-content{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:50px;
+}
+.venue-image{
+    width:50%;
+}
+.venue-image img{
+    width:100%;
+    border-radius:12px;
+    display:block;
+}
+.venue-details{
+    width:50%;
+}
+.venue-details h3{
+    font-size:36px;
+    margin-bottom:20px;
+}
+.venue-location{
+    color:#2f5bea;
+    font-weight:600;
+    margin-bottom:20px;
+}
+.venue-details p{
+    color:#555;
+    line-height:1.8;
+    margin-bottom:25px;
+}
+.venue-details ul{
+    margin-bottom:35px;
+    padding-left:20px;
+    display: block;
+    list-style-type: disc;
+}
+.venue-details li::marker{
+    color: #2563eb;
+}
+.venue-details li{
+    margin-bottom:10px;
+    color:#444;
+}
+.map-btn{
+    display: flex;
+    margin-left: auto !important;
+    justify-content: center !important;
+    margin: -30px 0 0 0;
+
+}
+.venue-btn{
+    background:#2f5bea;
+    color:white;
+    text-decoration:none;
+    padding:15px 35px;
+    border-radius:8px;
+    font-weight:600;
+}
+.venue-btn:hover{
+    background:#2147c9;
+}
+/* FAQ Section */
+.faq-section{
+    margin:120px auto;
+}
+.faq-section h2{
+    font-size:50px;
+    text-align:center;
+    margin-bottom:15px;
+}
+.faq-subtitle{
+    text-align:center;
+    color:#666;
+    font-size:20px;
+    margin-bottom:60px;
+}
+.faq-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.faq-item{
+    width: 500px;
+    height: 120px;
+    text-align: left;
+    background:#ffffff;
+    border:1px solid #e5e5e5;
+    border-radius:10px;
+    padding:30px;
+    margin-bottom:25px;
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+}
+.faq-item h3{
+    display: block;
+    font-size:24px;
+    margin-bottom:15px;
+    color:#2f5bea;
+}
+.faq-item p{
+    display: block;
+    color:#555;
+    line-height:1.8;
+    font-size:17px;
+}
+/* Register CTA Section */
+.register-section{
+    background:#2f5bea;
+    padding:100px 20px;
+    text-align:center;
+    margin-top:100px;
+}
+.register-section h2{
+    color:#ffffff;
+    font-size:50px;
+    margin-bottom:25px;
+}
+.register-section p{
+    color:#f2f2f2;
+    font-size:20px;
+    line-height:1.8;
+    width:70%;
+    margin:0 auto 40px;
+}
+.register-btn{
+    display:inline-block;
+    background:#ffffff;
+    color:#2f5bea;
+    text-decoration:none;
+    padding:18px 45px;
+    border-radius:8px;
+    font-size:18px;
+    font-weight:600;
+    transition:.3s;
+}
+.register-btn:hover{
+    background:#f4f4f4;
+}
+/* Footer section styles */
+.footer{
+    background:#0D1B2A;
+    padding:20px 0 10px;
+}
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+.footer-social{
+    text-align:center;
+}
+.footer-social h3{
+    color:white;
+    font-size:32px;
+    margin-bottom:5px;
+}
+.social-icons{
+    display:flex;
+    gap:20px;
+}
+.social-icons a{
+    width:30px;
+    height:30px;
+    background:rgba(255,255,255,.08);
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    color:white;
+    font-size:22px;
+    transition:.3s;
+}
+.social-icons a:hover{
+    background:#2f5bea;
+}
+.footer hr{
+    border:none;
+    border-top:1px solid rgba(255,255,255,.15);
+    margin-bottom:10px;
+}
+.footer-bottom{
+    text-align:center;
+}
+.footer-bottom p{
+    color:#b5b5b5;
+    font-size:18px;
 }
