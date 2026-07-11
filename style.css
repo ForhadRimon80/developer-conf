@@ -231,3 +231,53 @@ ul li a{
     color:#fff;
     border:none;
 }
+
+/* Conference Schedule style */
+.schedule-section{
+    margin:100px auto;
+    text-align:center;
+}
+.schedule-section h2{
+    font-size:50px;
+    margin-bottom:15px;
+}
+.schedule-subtitle{
+    color:#575757;
+    font-size:20px;
+    margin-bottom:60px;
+}
+.schedule-cards{
+    display:flex;
+    justify-content:space-between;
+    gap:30px;
+}
+.schedule-card{
+    flex:1;
+    background:#ffffff;
+    border:1px solid #e5e5e5;
+    border-radius:12px;
+    padding:30px;
+    text-align:left;
+    box-shadow:0 5px 20px rgba(0,0,0,0.05);
+}
+.schedule-card h3{
+    font-size:28px;
+    margin-bottom:25px;
+    color:#2f5bea;
+}
+.schedule-card ul{
+    list-style:none;
+    display:block;
+}
+.schedule-card li{
+    margin-bottom:18px;
+    font-size:18px;
+    color:#444;
+    line-height:1.6;
+}
+.schedule-card span{
+    font-weight:bold;
+    color:#000;
+    margin-right: 8px;
+    margin-bottom:4px;
+}
